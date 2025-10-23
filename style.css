@@ -34,8 +34,7 @@ body {
   font-family: var(--primary-font, "Arial, sans-serif");
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
-  transition: background-color 0.5s ease,
-    color 0.5s ease;
+  transition: background-color 0.5s ease, color 0.5s ease;
   will-change: background-color, color;
 }
 
@@ -46,6 +45,10 @@ body.dark-theme {
 
 body.dark-theme .skills-section {
   color: var(--btn-bg-color);
+}
+
+body.dark-theme .logo-container {
+  color: #ffffff;
 }
 
 .hero-info h2,
@@ -75,7 +78,6 @@ article p,
   transition: border-color 0.5s ease;
   will-change: border-color;
 }
-
 
 body.dark-theme .inner-circle {
   border-color: #030712;
@@ -415,7 +417,6 @@ footer,
   gap: 1rem;
 }
 
-
 article p,
 .btn-bg {
   background-color: var(--btn-bg-light);
@@ -461,9 +462,7 @@ footer {
   margin: 3rem 0;
 }
 
-
 @media screen and (min-width: 900px) {
-
   .skills,
   .portfolio {
     flex-direction: row;
