@@ -44,6 +44,10 @@ body.dark-theme {
   color: #ffffff;
 }
 
+body.dark-theme .skills-section {
+  color: var(--btn-bg-color);
+}
+
 .hero-info h2,
 .hero-info h1,
 .experience h2,
